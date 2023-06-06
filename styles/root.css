@@ -61,7 +61,7 @@ table {
     background-color: var(--light-blue);
     color: #fff;
     padding: 10px 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: all .3s ease;
 }
 

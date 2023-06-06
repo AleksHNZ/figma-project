@@ -67,13 +67,17 @@ main {
 }
 
 .main-section-left p{
-    line-height: 2;
     width: 613px;
-    color: var(--dark-gray);
-    padding-top: 40px;
 }
 
-.main-section-left span {
+.gray-text {
+    color: var(--dark-gray);
+    padding-top: 40px;
+    line-height: 2;
+
+}
+
+.blue-text {
     color: var(--light-blue);
 }
 
@@ -177,7 +181,259 @@ main {
     width: 692px;
     height: 64px;
     font-size: 18px;
-    color: #868686;
+    color: var(--gray);
     font-weight: 400;
     line-height: 1.8;
+}
+
+/* Article styles */
+
+article {
+    position: relative;
+    display: flex;
+    margin: 10rem 0;
+}
+
+.article-header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.article-icon {
+    background-color: #08D3BB;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+.article-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-header-text h3 {
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.article-header-text p {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.article-statement {
+    width: 514px;
+}
+
+.article-statement h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.article-ellipse {
+    position: absolute;
+    top: 30px;
+    right: -106px;
+}
+
+.second-article {
+    flex-direction: row-reverse;
+}
+
+.parallax-hero {
+    padding-right: 4rem;
+}
+
+.second-article .article-icon {
+    background-color: #1090CB;
+}
+
+.third-article .article-icon {
+    background-color: #9208D3;
+}
+
+/* Bell section */
+.bell-section {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 9rem;
+}
+
+.bell-section-content {
+    text-align: center;
+    width: 540px;
+    padding: 5rem 3rem;
+}
+
+
+.bell-section-left {
+    background-color: #F4F4F4;
+    margin-right: 3rem;
+    border-radius: 20px;
+
+}
+
+
+.bell-section-content p {
+    padding-bottom: 4rem;
+}
+
+.bell-section-content h3 {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.bell-section-right {
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.bell-section-right p {
+    color: #Fff;
+}
+
+.bell-section-right a {
+    background-color: #fff;
+    color: var(--light-blue);
+}
+
+.bell {
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+/* Company */
+.company {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.companies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+
+/* Input */
+
+.input-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 0;
+}
+
+.input-section h3 {
+    font-size: 30px;
+}
+
+.input-section-text {
+    width: 516px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.7;
+    padding-bottom: 5rem;
+}
+
+.input-section-input input {
+    padding: 1.5rem 2rem;
+    width: 500px;
+    box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.07);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.input-section-input a {
+    padding: 1.3rem 3rem;
+    background-color: #000;
+}
+
+::placeholder {
+    color: var(--gray);
+    font-family: 'Poppins', sans-serif;
+}
+
+.star {
+    position: absolute;
+    top: -45px;
+    left: 0;
+}
+
+.pai-char {
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+
+footer h5 {
+    padding-bottom: 35px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+footer p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.logo {
+    color: #00329B;
+}
+
+.lorem {
+    padding-top: 40px;
+}
+
+.footer {
+    max-width: 280px;
+    margin-right: 5rem;
+}
+
+.footer-p {
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 13px;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.fourth-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: space-around;
+    margin-top: 10rem;
+    
+}
+
+.fourth-footer img{
+    height: 12px;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+
 }
