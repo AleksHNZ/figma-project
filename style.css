@@ -71,13 +71,6 @@ main {
     width: 613px;
 }
 
-.gray-text {
-    color: var(--dark-gray);
-    padding-top: 40px;
-    line-height: 2;
-
-}
-
 .blue-text {
     color: var(--light-blue);
 }
@@ -310,7 +303,7 @@ article {
     right: 0;
 }
 
-/* Company */
+/* Company section */
 .company {
     text-align: center;
     font-size: 24px;
@@ -326,7 +319,7 @@ article {
 }
 
 
-/* Input */
+/* Input section */
 
 .input-section {
     position: relative;
@@ -381,7 +374,7 @@ article {
 }
 
 
-/* Footer */
+/* Footer section */
 
 footer {
     display: flex;
@@ -422,51 +415,19 @@ footer p {
 }
 
 
-.fourth-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 9rem;
-}
-
-.fourth-footer img{
-    width: 6px;
-    height: 12px;
-    border-radius: 50%;
-    margin-right: 2rem;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-}
-
 .fourth-footer ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fourth-footer ul li {
-    list-style: none;
-
-}
-
-.fourth-footer li a{
-    border: 1px solid #fff;
-
-    border-radius: 40px;
-}
-
-
-
-/* .fourth-footer {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-} */
-
-.fourth-footer img{
-    width: 10px;
-    height: 12px;
+    margin-top: 9rem;
+    justify-content: space-between;
+}
+.fourth-footer ul div {
+    background-color: #fff;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
-} 
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.fourth-footer img {
+    padding: 10px 13px;    
+}

@@ -81,3 +81,10 @@ table {
 a {
     text-decoration: none;
 }
+
+.gray-text {
+    color: var(--dark-gray);
+    padding-top: 40px;
+    line-height: 2;
+
+}
